@@ -12,6 +12,7 @@ Dockerfile           构建镜像
 
 ## 构建镜像
 ```bash
+docker login -u xmb233
 docker build -t xmb233/argocd-php-hello:v1.0.0 .
 docker push xmb233/argocd-php-hello:v1.0.0
 ```
