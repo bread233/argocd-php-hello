@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: php-hello
-        image: xmb233/argocd-php-hello:v1.0.1
+        image: xmb233/argocd-php-hello:release-3
         ports:
         - containerPort: 80
