@@ -1,5 +1,8 @@
 name: Build & Deploy via ArgoCD
 
+permissions:
+  contents: write    # ⭐ 允许 push 到 main
+
 on:
   push:
     branches:
